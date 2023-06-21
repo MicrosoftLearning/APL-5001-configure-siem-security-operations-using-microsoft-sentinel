@@ -1,4 +1,4 @@
-# INF99X: Sample Course
+# APL-5001: Set up and configure Microsoft Sentinel
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
