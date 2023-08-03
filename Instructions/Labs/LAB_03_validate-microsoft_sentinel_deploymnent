@@ -1,0 +1,29 @@
+---
+lab:
+    title: 'Exercise 03: Validate the Sentinel Deployment'
+    module: 'Guided Project - '
+---
+
+## General guidelines
+
+- When creating objects, use the default settings unless there are requirements that require different configurations.
+- Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment may adversely affect your final score.
+- If there are multiple approaches to achieving a goal, always choose the approach the requires the least amount of administrative effort.
+
+We need to validate that our Microsoft Sentinel deployment is receiving security events from Windows virtual machines.
+
+## Architecture diagram
+
+![Diagram with one storage account](../Media/task-1.png)
+
+## Skilling tasks
+
+You need to deploy Microsoft Sentinel into RG2@labinstnaceID. The solution must meet the following requirements:
+
+- Ensure Sentinel data is stored in the West US Azure region.
+- Ensure that all Sentinel analytics logs are retained for 180 days.
+- Assign roles to Operator1 to ensure that Operator1 can manage incidents and run sentinel playbooks. The solution must meet the principle of least privilege.
+
+## Exercise instructions
+
+### Task 1 - Create a Log Analytics workspace

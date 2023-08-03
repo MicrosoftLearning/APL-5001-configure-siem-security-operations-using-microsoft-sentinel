@@ -10,8 +10,7 @@ lab:
 - Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment may adversely affect your final score.
 - If there are multiple approaches to achieving a goal, always choose the approach the requires the least amount of administrative effort.
 
-
-We are currently evaluating the existing security posture or our corporate environment. We need your help in setting up a security information and event management (SIEM) solution to help identify future and ongoing cyber-attacks..
+We are currently evaluating the existing security posture or our corporate environment. We need your help in setting up a security information and event management (SIEM) solution to help identify future and ongoing cyber-attacks.
 
 ## Architecture diagram
 
@@ -27,46 +26,52 @@ You need to deploy Microsoft Sentinel into RG2@labinstnaceID. The solution must 
 
 ## Exercise instructions
 
-### Create a Log Analytics workspace
+### Task 1 - Create a Log Analytics workspace
 
-1. Create a Log Analytics workspace, including region option. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
-    1. In the Azure portal, search for and select `Microsoft Sentinel`.
-    1. Select **+ Create**.
-    1. Select **Create a new workspace**.
-    1. Select `RG2` as the Resource Group
-    1. Enter a valid name for the Log Analytics workspace
-    1. Select `West US` as the region for the workspace.
-    1. Select **Review + create** to validate the new workspace.
-    1. Select **Create** to deploy the workspace.
+Create a Log Analytics workspace, including region option. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
 
-### Deploy Microsoft Sentinel to a workspace
+  1. In the Azure portal, search for and select `Microsoft Sentinel`.
+  1. Select **+ Create**.
+  1. Select **Create a new workspace**.
+  1. Select `RG2` as the Resource Group
+  1. Enter a valid name for the Log Analytics workspace
+  1. Select `West US` as the region for the workspace.
+  1. Select **Review + create** to validate the new workspace.
+  1. Select **Create** to deploy the workspace.
 
-1. Deploy Microsoft Sentinel to the workspace.
-    1. Go to **Microsoft Sentinel**.
-    1. Select the workspace you want to add Sentinel to (created in 1.e).
-    1. Select **Add**.
+### Task 2 - Deploy Microsoft Sentinel to a workspace
 
-### Assign a Microsoft Sentinel role to a user
+Deploy Microsoft Sentinel to the workspace.
 
-1. Assign a Microsoft Sentinel role to a use. Learn more about [Roles and permissions for working in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/roles)
-    1. Go to the Resource group RG2
-    1. Select **Access control (IAM)**.
-    1. Select **Add** and `Add role assignment`.
-    1. In the search bar, search for and select the `Microsoft Sentinel Playbook Operator` role.
-    1. Select **Next**.
-    1. Select the option `User, group, or service principal`.
-    1. Select **+ Select members**.
-    1. Search for the `Operator1` assigned in your lab instructions `(operator1-XXXXXXXXX@LODSPRODMCA.onmicrosoft.com)`.
-    1. Select the `user icon`.
-    1. Select **Select**.
-    1. Select “Review + assign”.
-    1. Select “Review + assign”.
+  1. Go to **Microsoft Sentinel**.
+  1. Select the workspace you want to add Sentinel to (created in Task 1 step 5).
+  1. Select **Add**.
 
-1. Configure data retention [Learn more about data retention](https://learn.microsoft.com/azure/azure-monitor/logs/data-retention-archive).
-    1. Go to the `Log Analytics workspace` created in Skill 1.e.
-    1. Select **Usage and estimated costs**.
-    1. Select **Data retention**.
-    1. Change data retention period to **180 days**.
-    1. Select **OK**.
+### Task 3 - Assign a Microsoft Sentinel role to a user
+
+Assign a Microsoft Sentinel role to a use. Learn more about [Roles and permissions for working in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/roles)
+
+  1. Go to the Resource group RG2
+  1. Select **Access control (IAM)**.
+  1. Select **Add** and `Add role assignment`.
+  1. In the search bar, search for and select the `Microsoft Sentinel Playbook Operator` role.
+  1. Select **Next**.
+  1. Select the option `User, group, or service principal`.
+  1. Select **+ Select members**.
+  1. Search for the `Operator1` assigned in your lab instructions `(operator1-XXXXXXXXX@LODSPRODMCA.onmicrosoft.com)`.
+  1. Select the `user icon`.
+  1. Select **Select**.
+  1. Select “Review + assign”.
+  1. Select “Review + assign”.
+
+### Task 4 - Configure data retention
+
+Configure data retention [Learn more about data retention](https://learn.microsoft.com/azure/azure-monitor/logs/data-retention-archive).
+
+  1. Go to the `Log Analytics workspace` created in Task 1 step 5.
+  1. Select **Usage and estimated costs**.
+  1. Select **Data retention**.
+  1. Change data retention period to **180 days**.
+  1. Select **OK**.
 
 >**Note**: For additional practice complete the [Create an Azure Storage Account](https://learn.microsoft.com/training/modules/create-azure-storage-account/) module. The module has a sandbox where you can practice creating a storage account.
