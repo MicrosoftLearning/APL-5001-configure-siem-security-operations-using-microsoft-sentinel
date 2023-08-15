@@ -10,7 +10,7 @@ lab:
 - Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment may adversely affect your final score.
 - If there are multiple approaches to achieving a goal, always choose the approach the requires the least amount of administrative effort.
 
-We need to validate that our Microsoft Sentinel deployment is receiving security events from Windows virtual machines.
+We need to validate that our Microsoft Sentinel deployment is receiving security events from virtual machines that run Windows.
 
 ## Architecture diagram
 
@@ -18,12 +18,64 @@ We need to validate that our Microsoft Sentinel deployment is receiving security
 
 ## Skilling tasks
 
-You need to deploy Microsoft Sentinel into RG2@labinstnaceID. The solution must meet the following requirements:
+You need to validate the Microsoft Sentinel deployment to meet the following requirements:
 
-- Ensure Sentinel data is stored in the West US Azure region.
-- Ensure that all Sentinel analytics logs are retained for 180 days.
-- Assign roles to Operator1 to ensure that Operator1 can manage incidents and run sentinel playbooks. The solution must meet the principle of least privilege.
+- Configure the Windows Security Events via AMA connector to collect all security events from only a virtual machine named VM1.
+- Create a near-real-time (NRT) query rule to generate an incident based on the following query.
+
+```KQL
+SecurityEvent 
+| where EventID == 4732
+| where TargetAccount == "Builtin\\Administrators"
+```
+
+- Create an automation rule that assigns Operator1 the Owner role for incidents that are generate by the NRT rule.
 
 ## Exercise instructions
 
-### Task 1 - Create a Log Analytics workspace
+### Task 1 - Configure analytic rules in Microsoft Sentinel
+
+Configure a Windows Security Events via AMA connector. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+
+ 1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Data connectors**
+ 1. Search for and select **Windows Security Events via AMA**
+ 1. Select **Open connector page**
+ 1. In the `Configuration` area under the `Instructions` tab, select **+Create data collection rule**
+ 1. On the `Basics` tab enter a `Rule Name`
+ 1. On the `Resources` tab select **+Add resource(s)**, and then select `VM1`
+ 1. On the `Collect` tab leave the default of `All Security Events`
+ 1. Select **Next: Review + create >**, then select **Create**
+
+### Task 2 - Create a near real-time (NRT) query detection
+
+Configure analytic rules in Microsoft Sentinel. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+
+ 1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Analytics**
+ 1. Select **+ Create**, and **NRT query rule (Preview)**
+ 1. Enter a `Name` for the rule, and select **Privilege Escalation** from `Tactics and techniques`.
+ 1. Select **Next: Set rule logic >**
+ 1. Enter the KQL query into the `Rule query`form
+
+    ```KQL
+    SecurityEvent 
+    | where EventID == 4732
+    | where TargetAccount == "Builtin\\Administrators"
+    ```
+
+ 1. Select **Next: Incident settings >**, and select **Next: Automated response >**
+ 1. Select **Next: Review >**, and select **Create**.
+ 
+
+### Task 3 - Create a near real-time (NRT) query detection
+
+Configure analytic rules in Microsoft Sentinel. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+
+ 1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Analytics**
+
+ 1. 
+ 1. Select **+ Add new**
+ 1. Enter an `Automation rule name`, and select **Assign owner** from `Actions`
+ 1. Assign **Operator1** as the owner.
+ 1. 
+
+### Task 4 - Perform an attack 

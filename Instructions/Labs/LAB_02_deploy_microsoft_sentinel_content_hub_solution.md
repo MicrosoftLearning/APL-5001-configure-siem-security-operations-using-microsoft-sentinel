@@ -35,7 +35,7 @@ You need to deploy Content Hub solutions in the Microsoft Sentinel workspace and
 
 Create a Log Analytics workspace, including region option. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
 
-1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Content Hub**
+1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**
 1. Search for and select **Windows Security Events**
 1. Select the link for **View details**
 1. Select Windows Security Events plan, and select **Create**
@@ -53,7 +53,7 @@ Create a Log Analytics workspace, including region option. Learn more about [onb
 
 Configure the data connector for Azure Activity to apply all new and existing resources in the subscription.
 
-  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Content Hub**.
+  1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**.
   1. In the `Content hub`, filter `Status` for Installed solutions.
   1. Select the `Azure Activity` solution and select **Manage**.
   1. Select the `Azure Activity` Data connector and select **Open connector page**.
@@ -68,7 +68,7 @@ Configure the data connector for Azure Activity to apply all new and existing re
 
 Configure the data connector for Microsoft Defender for Cloud and ensure that that only incident management is configured.
 
-  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Content Hub**.
+  1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**.
   1. In the `Content hub`, filter `Status` for Installed solutions.
   1. Select the `Microsoft Defender for Cloud` solution and select **Manage**.
   1. Select the `Microsoft Defender for Cloud` Data connector and select **Open connector page**
@@ -79,21 +79,27 @@ Configure the data connector for Microsoft Defender for Cloud and ensure that th
 
 Create an analytic rule based on the Suspicious number of resource creation or deployment activities template. The rule should run every hour and only lookup data for that last hour.
 
-  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Content Hub**.
+  1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**.
   1. In the `Content hub`, filter `Status` for Installed solutions.
   1. Select the `Azure Activity` solution and select **Manage**.
   1. In the `Analytics rules`, find and select the rule for **Suspicious number of resource creation or deployment activities**.
   1. Select the **Suspicious number of resource creation or deployment activities** again, and select **Create rule**.
   1. Leave the defaults and select **Next: Set rule logic >**.
-  1. Leave the defaults and select **Next: Incident settings >**.
-      >**Note**: You may want to modify the "Query scheduling".
+  1. Configure `Query scheduling` using the table:
+
+     |Setting |Value|
+     |---|---|
+     |Run query every|1 Hours|
+     |Lookup data from the last|1 Hours|
+
+  1. Select **Next: Incident settings >**.
   1. Leave the defaults and select **Next: Automated response >**.
   1. Leave the defaults and select **Next: Review and create >**.
   1. Select **Save**.
 
 ### Task 5 - Ensure that the Azure Activity workbook is available in My workbooks
 
-  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Content Hub**.
+  1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**.
   1. In the `Content hub`, filter `Status` for Installed solutions.
   1. Select the `Azure Activity` solution and select **Manage**.
   1. Select the `Azure Activity` workbook and select **Configuration**.
