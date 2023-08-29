@@ -1,8 +1,10 @@
 ---
 lab:
     title: 'Exercise 01: Create and configure a Microsoft Sentinel workspace'
-    module: 'Guided Project - '
+    module: 'Guided Project - Deploy Microsoft Sentinel'
 ---
+
+>**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access.
 
 ## General guidelines
 
@@ -14,7 +16,7 @@ We are currently evaluating the existing security posture or our corporate envir
 
 ## Architecture diagram
 
-![Diagram with one storage account](../Media/task-1.png)
+![Diagram with Log Analytics workspace.](../Media/apl-5001-lab-diagrams-01.png)
 
 ## Skilling tasks
 
@@ -74,4 +76,4 @@ Configure data retention [Learn more about data retention](https://learn.microso
   1. Change data retention period to **180 days**.
   1. Select **OK**.
 
->**Note**: For additional practice complete the [Create an Azure Storage Account](https://learn.microsoft.com/training/modules/create-azure-storage-account/) module. The module has a sandbox where you can practice creating a storage account.
+>**Note**: For additional practice complete the [Create and manage Microsoft Sentinel workspaces](https://learn.microsoft.com/training/modules/create-manage-azure-sentinel-workspaces/) module.

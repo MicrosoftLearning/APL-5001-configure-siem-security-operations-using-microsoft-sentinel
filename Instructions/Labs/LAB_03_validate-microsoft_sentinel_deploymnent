@@ -33,7 +33,7 @@ SecurityEvent
 
 ## Exercise instructions
 
-### Task 1 - Configure analytic rules in Microsoft Sentinel
+### Task 1 - Configure Data Collection rules (DCRs) in Microsoft Sentinel
 
 Configure a Windows Security Events via AMA connector. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
 
@@ -76,6 +76,4 @@ Configure analytic rules in Microsoft Sentinel. Learn more about [onboarding Mic
  1. Select **+ Add new**
  1. Enter an `Automation rule name`, and select **Assign owner** from `Actions`
  1. Assign **Operator1** as the owner.
- 1. 
-
-### Task 4 - Perform an attack 
+ 1.  
