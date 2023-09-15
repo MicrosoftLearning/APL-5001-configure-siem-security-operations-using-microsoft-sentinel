@@ -20,7 +20,7 @@ We are currently evaluating the existing security posture or our corporate envir
 
 ## Skilling tasks
 
-You need to deploy Microsoft Sentinel into RG2@labinstnaceID. The solution must meet the following requirements:
+You need to deploy a Microsoft Sentinel workspace. The solution must meet the following requirements:
 
 - Ensure Sentinel data is stored in the West US Azure region.
 - Ensure that all Sentinel analytics logs are retained for 180 days.
