@@ -23,4 +23,6 @@ You need to perform a simulated attack to validate
 ## Exercise instructions
 
 ### Task 1 - Perform simulated attack 
+Use the 
 
+1. 

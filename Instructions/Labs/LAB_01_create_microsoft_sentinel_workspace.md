@@ -56,7 +56,7 @@ Assign a Microsoft Sentinel role to a use. Learn more about [Roles and permissio
   1. Go to the Resource group RG2
   1. Select **Access control (IAM)**.
   1. Select **Add** and `Add role assignment`.
-  1. In the search bar, search for and select the `Microsoft Sentinel Playbook Operator` role.
+  1. In the search bar, search for and select the `Microsoft Sentinel Contributor` role.
   1. Select **Next**.
   1. Select the option `User, group, or service principal`.
   1. Select **+ Select members**.

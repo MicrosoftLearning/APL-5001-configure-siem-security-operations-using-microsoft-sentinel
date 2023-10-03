@@ -63,17 +63,15 @@ Configure analytic rules in Microsoft Sentinel. Learn more about [onboarding Mic
     ```
 
  1. Select **Next: Incident settings >**, and select **Next: Automated response >**
- 1. Select **Next: Review >**, and select **Create**.
- 
+ 1. Select **Next: Review + Create**
+ 1. When validation is complete select **Save**
 
-### Task 3 - Create a near real-time (NRT) query detection
+### Task 3 - Configure automation in Microsoft Sentinel 
 
-Configure analytic rules in Microsoft Sentinel. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+Configure automation in Microsoft Sentinel. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
 
- 1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Analytics**
-
- 1. 
- 1. Select **+ Add new**
+ 1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Automation**
+ 1. Select **+ Create**, and Automation rule
  1. Enter an `Automation rule name`, and select **Assign owner** from `Actions`
  1. Assign **Operator1** as the owner.
- 1.  
+ 1. Select **Apply**
