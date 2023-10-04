@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 03: Validate the Sentinel Deployment'
-    module: 'Guided Project - '
+    module: 'Guided Project - Configure Microsoft Sentinel Data Collection rules, NRT Analytic rule and Automation'
 ---
 
 ## General guidelines
