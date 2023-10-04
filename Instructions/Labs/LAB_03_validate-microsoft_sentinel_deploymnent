@@ -48,7 +48,7 @@ Configure a Windows Security Events via AMA connector. Learn more about [onboard
 
 ### Task 2 - Create a near real-time (NRT) query detection
 
-Configure analytic rules in Microsoft Sentinel. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+Detect threats with near-real-time (NRT) analytic rules in Microsoft Sentinel. Learn more about [NRT Analytic rules in Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/near-real-time-rules).
 
  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Analytics**
  1. Select **+ Create**, and **NRT query rule (Preview)**
