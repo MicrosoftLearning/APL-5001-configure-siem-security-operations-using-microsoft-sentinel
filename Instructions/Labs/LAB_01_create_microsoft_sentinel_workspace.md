@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 01: Create and configure a Microsoft Sentinel workspace'
-    module: 'Guided Project - Deploy Microsoft Sentinel'
+    title: 'Exercise 01: Deploy Microsoft Sentinel'
+    module: 'Guided Project - Create and configure a Microsoft Sentinel workspace'
 ---
 
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access.

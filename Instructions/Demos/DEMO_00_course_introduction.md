@@ -1,7 +1,7 @@
 ---
 demo:
     title: 'Demonstration 00: Student materials and lab environment (adjust)'
-    module: 'Guided Project - Azure Files and Azure Blobs'
+    module: 'Guided Project - Configure SIEM Security Operations with Microsoft Sentinel'
 ---
 ## Demonstration - Student materials and lab environment (optional)
 
@@ -27,14 +27,12 @@ Use this demonstration to show students how to access the lab environment and st
 
 - Discuss that Microsoft Learn is a great source for all Azure documentation, training, certifications, and assessments. 
 
-- Select **Learning Paths** and then search for the **Secure storage for Azure Files and Azure Blob Storage** learning path.
+- Select **Learning Paths** and then search for the **Configure SIEM security operations using Microsoft Sentinel** learning path.
 
 - Discuss that the content in the learning path is specific to this course. There is more storage content they can review.
 
 - Explain the content is reference material and there isn't a 1:1 mapping with the classroom presentations.
 
-- Discuss that each of these modules may have additional hands-on activities. You will identify these activities as the course progresses. 
+- Discuss that each of these modules may have additional hands-on activities. You will identify these activities as the course progresses.
 
 - Ask the students to locate and bookmark the learning path.
-
- 

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 04: Perform simulated attack'
-    module: 'Guided Project - Perform a simulated attack to validate that Analytic and Automation rules create an incident'
+    module: 'Guided Project - Perform a simulated attack to validate Analytic and Automation rules'
 ---
 
 ## General guidelines

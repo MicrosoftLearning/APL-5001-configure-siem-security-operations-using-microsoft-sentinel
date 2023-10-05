@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 02: Ingest Windows Security event data'
-    module: 'Guided Project - Deploy Microsoft Sentinel Content Hub solutions'
+    module: 'Guided Project - Deploy Microsoft Sentinel Content Hub solutions and data connectors'
 ---
 
 ## General guidelines
