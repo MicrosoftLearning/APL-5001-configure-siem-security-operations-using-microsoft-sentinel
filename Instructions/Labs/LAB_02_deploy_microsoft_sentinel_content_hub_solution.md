@@ -4,6 +4,8 @@ lab:
     module: 'Guided Project - Deploy Microsoft Sentinel Content Hub solutions and data connectors'
 ---
 
+>**Note**: This lab builds on Lab 01. To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/free/?azure-portal=true) in which you have administrative access.
+
 ## General guidelines
 
 - When creating objects, use the default settings unless there are requirements that require different configurations.
