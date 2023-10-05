@@ -42,6 +42,8 @@ Use simulated attacks to test analytic rules in Microsoft Sentinel. Learn more a
 
 ### Task 2 - Verify an incident is created from the simulated attack
 
+Verify that an incident is created that matches criteria for the analytic rule and automation. Learn more about [Microsoft Sentinel incident management](https://learn.microsoft.com/azure/sentinel/incident-investigation).
+
 1. In `Microsoft Sentinel`, go to the `Threat management` menu section and select **Incidents**
 1. You should see an incident that matches the `Severity` and `Title` you configured in the `NRT` rule you created
 1. Select the `Incident` and the `detail` pane opens

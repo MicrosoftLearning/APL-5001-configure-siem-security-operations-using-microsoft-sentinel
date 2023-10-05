@@ -35,7 +35,7 @@ SecurityEvent
 
 ### Task 1 - Configure Data Collection rules (DCRs) in Microsoft Sentinel
 
-Configure a Windows Security Events via AMA connector. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+Configure a Windows Security Events via AMA connector. Learn more about [Windows Security Events via AMA connector](https://learn.microsoft.com/azure/sentinel/data-connectors/windows-security-events-via-ama).
 
  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Data connectors**
  1. Search for and select **Windows Security Events via AMA**
@@ -68,7 +68,7 @@ Detect threats with near-real-time (NRT) analytic rules in Microsoft Sentinel. L
 
 ### Task 3 - Configure automation in Microsoft Sentinel 
 
-Configure automation in Microsoft Sentinel. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).
+Configure automation in Microsoft Sentinel. Learn more about [Create and use Microsoft Sentinel automation rules](https://learn.microsoft.com/azure/sentinel/create-manage-use-automation-rules).
 
  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Automation**
  1. Select **+ Create**, and Automation rule
