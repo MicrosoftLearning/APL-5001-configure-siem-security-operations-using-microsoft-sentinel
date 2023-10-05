@@ -10,11 +10,11 @@ lab:
 - Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment may adversely affect your final score.
 - If there are multiple approaches to achieving a goal, always choose the approach the requires the least amount of administrative effort.
 
-We need to validate that our Microsoft Sentinel deployment is receiving security events from virtual machines that run Windows.
+We need to configure Microsoft Sentinel to receive security events from virtual machines that run Windows.
 
 ## Architecture diagram
 
-![Diagram with one storage account](../Media/task-1.png)
+![Diagram of Windows Security Events via AMA using DCR](../Media/apl-5001-lab-diagrams-lab03.png)
 
 ## Skilling tasks
 

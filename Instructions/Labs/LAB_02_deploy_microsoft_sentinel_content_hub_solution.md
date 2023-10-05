@@ -14,7 +14,7 @@ We need configure Microsoft Sentinel to ingest data by using Microsoft Sentinel 
 
 ## Architecture diagram
 
-![Diagram with one storage account](../Media/task-1.png)
+![Diagram of Content Hub data connectors](../Media/apl-5001-lab-diagrams-lab02.png)
 
 ## Skilling tasks
 
