@@ -20,7 +20,7 @@
 
 ## What about changes to the student handbook?
 
-- We'll review the student handbook on a quarterly basis and update through the normal MOC (Microsoft Official Curriculum) release channels as needed.
+- If a student handbook is provided, we'll review the student handbook on a quarterly basis and update through the normal MOC (Microsoft Official Curriculum) release channels as needed.
 
 ## How do I contribute?
 
