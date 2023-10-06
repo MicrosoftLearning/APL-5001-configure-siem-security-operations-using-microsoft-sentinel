@@ -12,7 +12,7 @@ lab:
 - Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment may adversely affect your final score.
 - If there are multiple approaches to achieving a goal, always choose the approach the requires the least amount of administrative effort.
 
-We need to validate that Microsoft Sentinel deployment is receiving security events and creating incidents from virtual machines that run Windows.
+We need to validate that our Microsoft Sentinel deployment is receiving security events and creating incidents from virtual machines that run Windows.
 
 ## Architecture diagram
 

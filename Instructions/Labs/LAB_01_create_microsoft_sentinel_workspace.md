@@ -12,7 +12,7 @@ lab:
 - Only create, delete, or modify objects to achieve the stated requirements. Unnecessary changes to the environment may adversely affect your final score.
 - If there are multiple approaches to achieving a goal, always choose the approach the requires the least amount of administrative effort.
 
-We are currently evaluating the existing security posture or our corporate environment. We need your help in setting up a security information and event management (SIEM) solution to help identify future and ongoing cyber-attacks.
+We are currently evaluating the existing security posture of our corporate environment. We need your help in setting up a security information and event management (SIEM) solution to help identify future and ongoing cyber-attacks.
 
 ## Architecture diagram
 
