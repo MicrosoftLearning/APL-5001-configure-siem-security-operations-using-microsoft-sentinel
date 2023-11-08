@@ -45,8 +45,8 @@ Create a Log Analytics workspace, including region option. Learn more about [onb
 
 Deploy Microsoft Sentinel to the workspace.
 
-  1. Go to **Microsoft Sentinel**.
-  1. Select the workspace you want to add Sentinel to (created in Task 1 step 5).
+  1. When the `workspace` deployment completes, select **Refresh** to display the new `workspace`.
+  1. Select the `workspace` you want to add Sentinel to (created in Task 1).
   1. Select **Add**.
 
 ### Task 3 - Assign a Microsoft Sentinel role to a user
