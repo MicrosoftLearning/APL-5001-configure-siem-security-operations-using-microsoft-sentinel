@@ -33,6 +33,8 @@ You need to deploy Content Hub solutions in the Microsoft Sentinel workspace and
 
 ## Exercise instructions
 
+>**Note**: In the following tasks, to access `Microsoft Sentinel`, select the `workspace` you created in Lab 01.
+
 ### Task 1 - Deploy a Microsoft Sentinel Content Hub solution
 
 Deploy a Content Hub solution and configure Data connectors. Learn more about [Content Hub solutions](https://learn.microsoft.com/azure/sentinel/sentinel-solutions).
@@ -102,7 +104,6 @@ Create an analytic rule based on the Suspicious number of resource creation or d
   1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**.
   1. In the `Content hub`, filter `Status` for Installed solutions.
   1. Select the `Azure Activity` solution and select **Manage**.
-  1. Select the `Azure Activity` workbook and select **Configuration**.
+  1. Select the `Azure Activity` workbook `checkbox`, and then select **Configuration**.
   1. Select the `Azure Activity` workbook and select **Save**.
-  1. Choose the `Azure Region` for your `Microsoft Sentinel` workspace.
-  
+  1. Choose the `Azure Region` for your `Microsoft Sentinel` workspace.  
