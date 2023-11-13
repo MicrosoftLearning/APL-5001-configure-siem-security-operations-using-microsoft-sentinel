@@ -35,6 +35,8 @@ SecurityEvent
 
 ## Exercise instructions
 
+>**Note**: In the following tasks, to access `Microsoft Sentinel`, select the `workspace` you created in Lab 01.
+
 ### Task 1 - Configure Data Collection rules (DCRs) in Microsoft Sentinel
 
 Configure a Windows Security Events via AMA connector. Learn more about [Windows Security Events via AMA connector](https://learn.microsoft.com/azure/sentinel/data-connectors/windows-security-events-via-ama).
@@ -42,9 +44,10 @@ Configure a Windows Security Events via AMA connector. Learn more about [Windows
  1. In `Microsoft Sentinel`, go to the `Configuration` menu section and select **Data connectors**
  1. Search for and select **Windows Security Events via AMA**
  1. Select **Open connector page**
- 1. In the `Configuration` area under the `Instructions` tab, select **+Create data collection rule**
+ 1. In the `Configuration` area, select **+Create data collection rule**
  1. On the `Basics` tab enter a `Rule Name`
- 1. On the `Resources` tab select **+Add resource(s)**, and then select `VM1`
+ 1. On the `Resources` tab expand your subscription and the `RG1` resource group in the `Scope` column
+ 1. Select `VM1`, and then select **Next: Collect >**
  1. On the `Collect` tab leave the default of `All Security Events`
  1. Select **Next: Review + create >**, then select **Create**
 
