@@ -75,7 +75,7 @@ Configure the data connector for Microsoft Defender for Cloud and ensure that th
   1. In `Microsoft Sentinel`, go to the `Content management` menu section and select **Content Hub**.
   1. In the `Content hub`, filter `Status` for Installed solutions.
   1. Select the `Microsoft Defender for Cloud` solution and select **Manage**.
-  1. Select the `Microsoft Defender for Cloud` Data connector and select **Open connector page**
+  1. Select the `Subscription-based Microsoft Defender for Cloud (Legacy)` Data connector and select **Open connector page**
   1. In the `Configuration` area under the `Instructions` tab, scroll down to your subscription and move the slider in the `Status` column to **Connected**.
   1. Make sure `Bi-directional sync` is **Enabled**.
 
