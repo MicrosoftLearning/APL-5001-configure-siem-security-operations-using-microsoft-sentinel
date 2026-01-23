@@ -35,6 +35,8 @@ You need to deploy Content Hub solutions in the Microsoft Sentinel workspace and
 
 >**Note**: In the following tasks, to access `Microsoft Sentinel`, select the `workspace` you created in Lab 01.
 
+### Estimated time to complete this lab: 45 minutes
+
 ### Task 1 - Deploy a Microsoft Sentinel Content Hub solution
 
 Deploy a Content Hub solution and configure Data connectors. Learn more about [Content Hub solutions](https://learn.microsoft.com/azure/sentinel/sentinel-solutions).

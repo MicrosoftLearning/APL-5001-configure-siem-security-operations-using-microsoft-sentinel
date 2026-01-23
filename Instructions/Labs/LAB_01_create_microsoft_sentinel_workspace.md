@@ -28,6 +28,8 @@ You need to deploy a Microsoft Sentinel workspace. The solution must meet the fo
 
 ## Exercise instructions
 
+### Estimated time to complete this lab: 30 minutes
+
 ### Task 1 - Create a Log Analytics workspace
 
 Create a Log Analytics workspace, including region option. Learn more about [onboarding Microsoft Sentinel](https://learn.microsoft.com/azure/sentinel/quickstart-onboard).

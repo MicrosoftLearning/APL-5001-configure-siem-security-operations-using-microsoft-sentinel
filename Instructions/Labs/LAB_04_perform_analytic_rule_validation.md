@@ -24,6 +24,8 @@ You need to perform a simulated attack to validate that the Analytic and Automat
 
 ## Exercise instructions
 
+### Estimated time to complete this lab: 10 minutes
+
 ### Task 1 - Perform a simulated Privilege Escalation attack
 
 Use simulated attacks to test analytic rules in Microsoft Sentinel. Learn more about [privilege escalation attack simulation](https://github.com/redcanaryco/atomic-red-team/blob/master/atomics/T1078.003/T1078.003.md).

@@ -37,6 +37,8 @@ SecurityEvent
 
 >**Note**: In the following tasks, to access `Microsoft Sentinel`, select the `workspace` you created in Lab 01.
 
+### Estimated time to complete this lab: 20 minutes
+
 ### Task 1 - Configure Data Collection rules (DCRs) in Microsoft Sentinel
 
 Configure a Windows Security Events via AMA connector. Learn more about [Windows Security Events via AMA connector](https://learn.microsoft.com/azure/sentinel/data-connectors/windows-security-events-via-ama).
@@ -71,7 +73,7 @@ Detect threats with near-real-time (NRT) analytic rules in Microsoft Sentinel. L
  1. Select **Next: Review + Create**
  1. When validation is complete select **Save**
 
-### Task 3 - Configure automation in Microsoft Sentinel 
+### Task 3 - Configure automation in Microsoft Sentinel
 
 Configure automation in Microsoft Sentinel. Learn more about [Create and use Microsoft Sentinel automation rules](https://learn.microsoft.com/azure/sentinel/create-manage-use-automation-rules).
 
