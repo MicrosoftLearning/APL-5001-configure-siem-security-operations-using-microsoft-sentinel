@@ -1,7 +1,16 @@
 ---
 lab:
-    title: 'Exercise 03: Validate the Sentinel Deployment'
-    module: 'Guided Project - Configure Microsoft Sentinel Data Collection rules, NRT Analytic rule and Automation'
+  title: 'Exercise 03: Validate the Sentinel Deployment'
+  module: Guided Project - Configure Microsoft Sentinel Data Collection rules, NRT
+    Analytic rule and Automation
+  description: We need to configure Microsoft Sentinel to receive security events
+    from virtual machines that run Windows.
+  duration: 20 minutes
+  level: 400
+  islab: true
+  primarytopics:
+  - Microsoft Sentinel
+  - Windows
 ---
 
 >**Note**: This lab builds on Lab 01 and Lab 02. To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/free/?azure-portal=true) in which you have administrative access.
