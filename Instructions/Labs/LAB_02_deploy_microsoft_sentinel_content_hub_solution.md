@@ -1,7 +1,15 @@
 ---
 lab:
-    title: 'Exercise 02: Ingest Windows Security event data'
-    module: 'Guided Project - Deploy Microsoft Sentinel Content Hub solutions and data connectors'
+  title: 'Exercise 02: Ingest Windows Security event data'
+  module: Guided Project - Deploy Microsoft Sentinel Content Hub solutions and data connectors
+  description: We need configure Microsoft Sentinel to ingest data by using Microsoft Sentinel solutions.
+  duration: 45 minutes
+  level: 400
+  islab: true
+  primarytopics:
+    - Microsoft Sentinel
+    - Windows
+    - Windows Security
 ---
 
 >**Note**: This lab builds on Lab 01. To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/free/?azure-portal=true) in which you have administrative access.
