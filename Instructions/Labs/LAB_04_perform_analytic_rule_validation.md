@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Exercise 04: Perform simulated attack'
-    module: 'Guided Project - Perform a simulated attack to validate Analytic and Automation rules'
+  title: 'Exercise 04: Perform simulated attack'
+  module: Guided Project - Perform a simulated attack to validate Analytic and Automation rules
+  description: You need to perform a simulated attack to validate that the Analytic and Automation rules create an incident and assign it to the Operator1. You will perform a simple Privilege Escalation attack on vm1.
+  duration: 10 minutes
+  level: 300
+  islab: true
 ---
 
 >**Note**: This lab builds on Labs 01, 02 and 03. To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/free/?azure-portal=true) in which you have administrative access.
